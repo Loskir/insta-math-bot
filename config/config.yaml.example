@@ -1,0 +1,19 @@
+development:
+  bot_token: '123:abc'
+
+  mongodb: 'mongodb://localhost:27017/my-bot'
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 1
+
+production:
+  bot_token: '123:abc'
+
+  mongodb: 'mongodb://localhost:27017/my-bot'
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 1
