@@ -59,9 +59,9 @@ async@^2.6.1:
     lodash "^4.17.14"
 
 bl@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-2.2.0.tgz#e1a574cdf528e4053019bb800b041c0ac88da493"
-  integrity sha512-wbgvOpqopSr7uq6fJrLH8EsvYMJf9gzfo2jCsL2eTy75qXPukA4pCgHamOQkZtY5vmfVtjB+P3LNlMHW5CEZXA==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-2.2.1.tgz#8c11a7b730655c5d56898cdc871224f40fd901d5"
+  integrity sha512-6Pesp1w0DEX1N550i/uGV/TqucVL4AM/pgThFSN/Qq9si1/DF9aIHs1BxD8V/QU0HoeHO6cQRTAuYnLPKq1e4g==
   dependencies:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
@@ -96,11 +96,6 @@ chownr@^1.1.1, chownr@^1.1.3:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
-
-chunk@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/chunk/-/chunk-0.0.2.tgz#04aa4f31664ae850de500cf8d57b5f4c29cd522e"
-  integrity sha1-BKpPMWZK6FDeUAz41XtfTCnNUi4=
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -165,11 +160,6 @@ colorspace@1.1.x:
   dependencies:
     color "3.0.x"
     text-hex "1.0.x"
-
-compile-template@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/compile-template/-/compile-template-0.3.1.tgz#e581a08385c792609408d448187a5eaaf334b6b0"
-  integrity sha512-5aB55cRApvy8zKPe9RrrLVysVpHafgp1IMvfGYQ8QnXrIsafYuj73yyIGYEHsslYoDxIs/XsM5wTIxICcwIKog==
 
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
@@ -358,7 +348,7 @@ isarray@~1.0.0:
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
-js-yaml@^3.13.1, js-yaml@^3.6.1:
+js-yaml@^3.13.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
@@ -685,9 +675,9 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
-  integrity sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 sandwich-stream@^2.0.1:
   version "2.0.2"
@@ -873,15 +863,6 @@ tar@^6.0.1:
     minizlib "^2.1.0"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
-
-telegraf-i18n@^6.5.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/telegraf-i18n/-/telegraf-i18n-6.6.0.tgz#d75a5247bd4b6678f051b370871fca9488c61952"
-  integrity sha512-xe8ztg9lh5IoN0xjlHpuNkF/b2+HGMYEDwURFYaKbUIavNSXpB5B48WeOJ6MySEAIRNegc+S9lLzJcb4JBPX0g==
-  dependencies:
-    compile-template "^0.3.1"
-    debug "^4.0.1"
-    js-yaml "^3.6.1"
 
 telegraf-session-redis@^5.1.0:
   version "5.1.0"
