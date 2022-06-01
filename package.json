@@ -7,7 +7,7 @@
     "mathjax": "^3.0.1",
     "mongoose": "^5.6.7",
     "nanoid": "^2.0.3",
-    "sharp": "^0.24.0",
+    "sharp": "^0.30.5",
     "telegraf": "^3.32.0",
     "telegraf-session-redis": "^5.1.0",
     "winston": "^3.2.1"
